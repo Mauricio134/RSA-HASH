@@ -93,17 +93,31 @@ def Descifrado(c,d,n):
   return S
 
 # CLAVES n,e,d:
-ned = RSA_KEY_GENERATOR(32)
+
 # ENCRIPTADO HASH:
-M = "Hola Mundo" 
-result = hashlib.sha1(M.encode())
-m = int(result.hexdigest(), 16)%ned[0]
-# CREACION DE LA FIRMA:
-o = Descifrado(m, ned[2],ned[0]) #firma
-# OBTENCION DE m CON CIFRADO:
-u = Cifrado(o, ned[1],ned[0])
-# ENCRIPTADO HASH:
-result = hashlib.sha1(M.encode())
-u_ = int(result.hexdigest(), 16)%ned[0]
-print(u)
-print(u_)
+ 
+def validación_firmas (M) :
+  ned = RSA_KEY_GENERATOR(32)
+  result = hashlib.sha1(M.encode())
+  m = int(result.hexdigest(), 16)%ned[0]
+  # CREACION DE LA FIRMA:
+  o = Descifrado(m, ned[2],ned[0]) #firma
+  # OBTENCION DE m CON CIFRADO:
+  u = Cifrado(o, ned[1],ned[0])
+  # ENCRIPTADO HASH:
+  result = hashlib.sha1(M.encode())
+  u_ = int(result.hexdigest(), 16)%ned[0]
+  print('{: ^10} {: ^10} {: ^10} '.format(m,"|", u_))
+  print ("---------------------------------")
+
+print ()
+print ("---------------------------------")
+print ('{: ^10} {: ^10} {: ^10} ' .format("P(S(m))", "|", "HASH(M)"))
+print ("---------------------------------")
+messaje_1 = validación_firmas("Hola mundo")
+messaje_2 = validación_firmas("Juan esta solo en casa")
+messaje_2 = validación_firmas("Meeting en plaza de armas")
+print ()
+
+
+
