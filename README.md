@@ -47,12 +47,23 @@ print(m)
 ```
 Segundo ejercicio<br>
 ![image](https://user-images.githubusercontent.com/85748915/176944006-45626b43-a69c-47f6-b0f4-11b5bab69ad4.png)<br>
-1) Primero planteamos las variables<br>
-![image](https://user-images.githubusercontent.com/85748915/177001588-f5a7ae02-6a7e-4f97-aae0-3cdf6a148b33.png)<br>
-2) Mediante la función eucExt, obtendremos valores para las siguientes variables, y m que es 0.<br>
-![image](https://user-images.githubusercontent.com/85748915/177001688-5b26f166-f316-4493-8914-b6d6d349c1ea.png)<br>
-3) Se trabaja como el ejercicio anterior, pero incluyendo el c prima<br>
-![image](https://user-images.githubusercontent.com/85748915/177001743-c25f3b6c-fe55-44eb-84fd-96eac1cc127c.png)<br>
 Tercer ejecicio<br>
 ![image](https://user-images.githubusercontent.com/85748915/176944107-bf109294-3a4b-4727-b868-6c582aad7725.png)<br>
+Importamos ramdon y hash, para poder trabajar con la firma digital
+![image](https://user-images.githubusercontent.com/85748915/177002659-77f9d0ef-d132-43cb-abeb-a10d73e987d6.png)<br>
+Mediante la función RSA_KEY_GENERATOR, vamos a crear la variable ned de 32 bits<br>
+![image](https://user-images.githubusercontent.com/85748915/177005825-8ce80411-aef7-4571-af6f-090559e35945.png)<br>
+Crearemos la variable result con mapeo de HASH sha1 para codificar el mensaje, luego lo volveremos hexadecimal<br>
+![image](https://user-images.githubusercontent.com/85748915/177005873-0f0175bc-5a29-49f8-b15a-7f527265ad34.png)<br>
+Ahora pasaremos a crear la firma<br>
+![image](https://user-images.githubusercontent.com/85748915/177005891-e11ff827-7cdf-429a-856c-71f9ea39e3c5.png)<br>
+Obtenemos el mensaje mediante el cifrado<br>
+![image](https://user-images.githubusercontent.com/85748915/177005918-eb70966a-d1d6-43ee-8321-783b4f0e6261.png)<br>
+Procedemos a encriptar HASH<br>
+![image](https://user-images.githubusercontent.com/85748915/177005950-91b165ca-12e8-4dd9-b35e-8556e09e3ee7.png)<br>
+Por ultimo ingresamos los ultimos 3 mensajes para comprobar el programa<br>
+![image](https://user-images.githubusercontent.com/85748915/177006006-ac0f5597-8caf-40c4-8831-f4bfacc0a610.png)<br>
+Y asi termina el codigo
+
+
 (*)Este valor fue obtenido del siguiente link: https://www.dcode.fr/euler-totient
