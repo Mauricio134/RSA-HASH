@@ -47,11 +47,11 @@ print(m)
 ```
 Segundo ejercicio<br>
 ![image](https://user-images.githubusercontent.com/85748915/176944006-45626b43-a69c-47f6-b0f4-11b5bab69ad4.png)<br>
-Primero planteamos las variables<br>
+1) Primero planteamos las variables<br>
 ![image](https://user-images.githubusercontent.com/85748915/177001588-f5a7ae02-6a7e-4f97-aae0-3cdf6a148b33.png)<br>
-Mediante la función eucExt, obtendremos valores para las siguientes variables, y m que es 0.<br>
+2) Mediante la función eucExt, obtendremos valores para las siguientes variables, y m que es 0.<br>
 ![image](https://user-images.githubusercontent.com/85748915/177001688-5b26f166-f316-4493-8914-b6d6d349c1ea.png)<br>
-Se trabaja como el ejercicio anterior, pero incluyendo el c prima
+3) Se trabaja como el ejercicio anterior, pero incluyendo el c prima<br>
 ![image](https://user-images.githubusercontent.com/85748915/177001743-c25f3b6c-fe55-44eb-84fd-96eac1cc127c.png)<br>
 Tercer ejecicio<br>
 ![image](https://user-images.githubusercontent.com/85748915/176944107-bf109294-3a4b-4727-b868-6c582aad7725.png)<br>
