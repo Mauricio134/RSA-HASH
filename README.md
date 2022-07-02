@@ -49,7 +49,7 @@ Segundo ejercicio<br>
 ![image](https://user-images.githubusercontent.com/85748915/176944006-45626b43-a69c-47f6-b0f4-11b5bab69ad4.png)<br>
 Tercer ejecicio<br>
 ![image](https://user-images.githubusercontent.com/85748915/176944107-bf109294-3a4b-4727-b868-6c582aad7725.png)<br>
-Importamos ramdon y hash, para poder trabajar con la firma digital<br>
+Importamos random y hash, para poder trabajar con la firma digital<br>
 ![image](https://user-images.githubusercontent.com/85748915/177002659-77f9d0ef-d132-43cb-abeb-a10d73e987d6.png)<br>
 Mediante la función RSA_KEY_GENERATOR, vamos a crear la variable ned de 32 bits<br>
 ![image](https://user-images.githubusercontent.com/85748915/177005825-8ce80411-aef7-4571-af6f-090559e35945.png)<br>
