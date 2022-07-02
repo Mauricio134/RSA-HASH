@@ -47,6 +47,15 @@ print(m)
 ```
 Segundo ejercicio<br>
 ![image](https://user-images.githubusercontent.com/85748915/176944006-45626b43-a69c-47f6-b0f4-11b5bab69ad4.png)<br>
+Primero declaramos las variables<br>
+![image](https://user-images.githubusercontent.com/85748915/177011810-e64233a1-8e12-494f-b4e3-db2191c9c804.png)<br>
+Mediante la función eucExt y EUCLIDES obtenemos las siguientes variables<br>
+![image](https://user-images.githubusercontent.com/85748915/177011871-d2ce6692-5019-4b07-8f64-7fe91913b21b.png)<br>
+Ahora verificamos la versatilidad del algoritmo y nuestro codigo<br>
+![image](https://user-images.githubusercontent.com/85748915/177011967-bc96102d-b1d6-45b7-87a3-2a07ea139696.png)<br>
+Finalizamos imprimiendo los dos cifrados obtenidos<br>
+![image](https://user-images.githubusercontent.com/85748915/177011984-2ac9d755-4469-4367-8ce4-c90fe8afed60.png)<br>
+
 Tercer ejecicio<br>
 ![image](https://user-images.githubusercontent.com/85748915/176944107-bf109294-3a4b-4727-b868-6c582aad7725.png)<br>
 Importamos random y hash, para poder trabajar con la firma digital<br>
