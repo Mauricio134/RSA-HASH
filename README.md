@@ -11,8 +11,15 @@ Se usan las funciones :<br>
 - Randomgen
 - RSA_KEY_GENERATOR
 - Validador de firmas
-Primer ejercicio<br>
+<br>Primer ejercicio<br>
 ![image](https://user-images.githubusercontent.com/85748915/176943895-7c60f54a-cab8-4a20-b6a6-342929b315db.png)<br>
+1) Primero se plantean las variables necesarias para realizar el ejercicio:
+```python
+e = 65537
+n = 999630013489
+phi_n = 999628013860
+c = 747120213790
+```
 Segundo ejercicio<br>
 ![image](https://user-images.githubusercontent.com/85748915/176944006-45626b43-a69c-47f6-b0f4-11b5bab69ad4.png)<br>
 Tercer ejecicio<br>
